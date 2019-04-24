@@ -28,7 +28,7 @@ Installation
 
 Copy and paste the below link into the browser.
 
-	https://github.com/G00362383
+	https://github.com/G00362383/G00362383
 
 Click the green, Clone or download drop down button and select Download ZIP.
 
