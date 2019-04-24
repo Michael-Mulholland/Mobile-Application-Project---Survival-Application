@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Tips</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<!--
+  Tips: contains nine links to additional pages containing survival informtion on water, 
+  shelter, fire, kits required, planning ahead, food, medical, tools and water crossing.
+-->
+
+<ion-content padding>
+  <ion-card>
+    <ion-list>
+      <button ion-item (click)="water()">
+        <ion-icon name="water" item-start></ion-icon>
+        Water Source
+      </button>
+
+      <button ion-item (click)="shelter()">
+        <ion-icon name="home" item-start></ion-icon>
+        Shelter
+      </button>
+
+      <button ion-item (click)="fire()">
+        <ion-icon name="flame" item-start></ion-icon>
+        Fire
+      </button>
+
+      <button ion-item (click)="kit()">
+        <ion-icon name="construct" item-start></ion-icon>
+        Kit
+      </button>
+
+      <button ion-item (click)="planning()">
+        <ion-icon name="list-box" item-start></ion-icon>
+        Planning
+      </button>
+
+      <button ion-item (click)="food()">
+        <ion-icon name="pizza" item-start></ion-icon>
+        Food
+      </button>
+
+      <button ion-item (click)="medical()">
+        <ion-icon name="medical" item-start></ion-icon>
+        Medical
+      </button>
+
+      <button ion-item (click)="tools()">
+        <ion-icon name="hammer" item-start></ion-icon>
+        Tools
+      </button>
+
+      <button ion-item (click)="waterCrossing()">
+        <ion-icon name="water" item-start></ion-icon>
+        Water Crossing
+      </button>
+
+    </ion-list>
+  </ion-card>
+</ion-content>

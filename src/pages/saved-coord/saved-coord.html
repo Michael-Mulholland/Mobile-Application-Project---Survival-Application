@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Last Saved Coordinates</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<!--
+  Saved coordinates page stores the last known 
+  Latitudes, degrees, minutes, seconds 
+  and the Longitudes, degrees, minutes, seconds to the phone
+-->
+
+<ion-content padding>
+  <ion-card>
+    <ion-card-header>
+      <b>Last saved details</b>
+    </ion-card-header>
+  </ion-card>
+
+  <!-- data-binding - displays Latitudes, degrees, minutes, seconds -->
+  <ion-card>
+    <ion-card-content>
+      <h5><b>Latitude</b></h5>
+      <p>Degrees: {{latDegrees}}</p>
+      <p>Minutes: {{latMinutes}}</p>
+      <p>Seconds: {{latSeconds}}</p>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- data-binding - displays Longitude, degrees, minutes, seconds -->
+  <ion-card>
+    <ion-card-content>
+      <h5><b>Longitude</b></h5>
+      <p>Degrees: {{lngDegrees}}</p>
+      <p>Minutes: {{lngMinutes}}</p>
+      <p>Seconds: {{lngSeconds}}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

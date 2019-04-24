@@ -1,0 +1,81 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Weather</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<!-- 
+  Displays the current weater - location, temperature and description of the weather
+  Current Latitude in degrees, minutes and seconds
+  Current Longitude in degrees, minutes and seconds
+  Sunrise and Sunset times
+ -->
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-12 col-sm>
+        <h5>Current Weather</h5>
+      </ion-col>
+      <ion-col col-4 col-sm>
+        <p>{{myName}}</p>
+      </ion-col>
+      <ion-col col-3 col-sm>
+        <p>{{myTemp}}°C</p>
+      </ion-col>
+      <ion-col col-5 col-sm>
+        <p *ngFor="let des of myDescription">
+          {{des.description}}
+        </p>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col col-6 col-sm>
+        <h5><b>Latitude</b></h5>
+        <p>{{ mylat }}</p>
+      </ion-col>
+      <ion-col col-6 col-sm>
+        <h5><b>Longitude</b></h5>
+        <p>{{ mylon }}</p>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col col-6 col-sm>
+        <p><b>Degrees:</b> {{ latDegrees }}</p>
+        <p><b>Mins:</b> {{ latMinutes }}</p>
+        <p><b>Sec:</b> {{ latSeconds }}</p>
+      </ion-col>
+      <ion-col col-6 col-sm>
+        <p><b>Degrees:</b> {{ lngDegrees }}</p>
+        <p><b>Mins:</b> {{ lngMinutes }}</p>
+        <p><b>Sec:</b> {{ lngSeconds }}</p>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col col-6 col-sm>
+        <p><b>Sunrise:<br></b> {{ sunrise }}</p>
+      </ion-col>
+      <ion-col col-6 col-sm>
+        <p><b>Sunset:<br></b> {{ sunset }}</p>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col col-4 col-sm><br><br>
+      </ion-col>
+      <ion-col col-4 col-sm>
+        <!-- once clicked, current Latitude in degrees, minutes and seconds and 
+          current Longitude in degrees, minutes and seconds will be saved to the phones hardware -->
+        <button (click)="onSave()" (click)="navToPage()" ion-button round>Save</button>
+      </ion-col>
+      <ion-col col-4 col-sm>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
