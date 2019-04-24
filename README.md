@@ -1,3 +1,25 @@
 Description
 
 Survival is a mobile application about Conor Nixon, the survival expert. The application contains information on how to survive out in the wilderness, not just text form, but with various photos and videos. Other features include a photo gallery with photos of Conor Nixon showing us some of the most basic skills that we will need to learn in order to survive. The app has essential survival information, including tips on finding a water source, shelter, fire, kit needed, planning ahead, food, medical and tools needed to survive. Another feature contained in the application is the current weather at your location. It also features the Latitude, longitude in degrees, mins and seconds to help you survive while using a map. The application also saves your last known Latitude, longitude in degrees, mins and seconds to your phone.
+
+===============================================================================
+
+Motovation
+
+In Mobile Application Development I must create a mobile application and I must meet the following requirements:
+
+• The App must run - When the ionic serve command is issued, after cloning and installing modules I expect the app to open in the browser.
+• The App should use:
+
+	1. The built-in Data Binding properties – e.g. interpolation, two-way data binding.
+	2. A NavController - At some point your app must navigate between views.
+	3. Ionic Native/Cordova plugin.
+	4. Read JSON Data from an external URL.
+	5. Data Persistence.
+	6. The App must be structured in standard, organised and consistent fashion.
+	7. There must be a comment for each non-obvious line of code you add to the project.
+	8. The submission process must be followed (see below).
+	9. The project must be created using ionic start G0000001 template, where G0000001 is your Student ID.
+	10. A User Guide should be added to the wiki section of your GitHub repository.
+
+===============================================================================
