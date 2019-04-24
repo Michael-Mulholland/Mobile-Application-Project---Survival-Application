@@ -23,3 +23,29 @@ In Mobile Application Development I must create a mobile application and I must 
 	10. A User Guide should be added to the wiki section of your GitHub repository.
 
 ===============================================================================
+
+Installation
+
+Copy and paste the below link into the browser.
+
+	https://github.com/G00362383/G00362383
+
+Click the green, Clone or download drop down button and select Download ZIP.
+
+When the ZIP is downloaded, right click the folder and select Extract all. 
+Select the location that you want to store the ZIP contents.
+Click into the folder, then click into the tab showing where your file is stored and tpye in cmd and hit enter.
+
+If you want to view the application code in Visual Studio then enter the following:
+
+	code .
+
+To view the application in the browser enter the following command:
+
+	ionic serve
+
+When the command is complete you will recive the following:
+
+	http://localhost:8100/
+
+Copy and paste it into the browser to view the application.
