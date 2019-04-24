@@ -49,3 +49,7 @@ When the command is complete you will recive the following:
 	http://localhost:8100/
 
 Copy and paste it into the browser to view the application.
+
+===============================================================================
+
+Please view Wiki for further details about the mobile application.
