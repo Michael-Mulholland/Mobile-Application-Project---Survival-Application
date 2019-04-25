@@ -8,7 +8,7 @@ Survival is a mobile application about Conor Nixon, the survival expert. The app
 
 ## **Motovation**
 
-In Mobile Application Development I must create a mobile application and I must meet the following requirements:
+In MAD I must create a mobile app and I must meet the following requirements:
 
 • The App must run - When the ionic serve command is issued, after cloning and installing modules I expect the app to open in the browser.
 • The App should use:
@@ -23,6 +23,10 @@ In Mobile Application Development I must create a mobile application and I must 
 	8. The submission process must be followed (see below).
 	9. The project must be created using ionic start G0000001 template, where G0000001 is your Student ID.
 	10. A User Guide should be added to the wiki section of your GitHub repository.
+
+***
+## **Features**
+
 
 ***
 
