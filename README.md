@@ -4,9 +4,9 @@
 
 Survival is a mobile application about Conor Nixon, the survival expert. The application contains information on how to survive out in the wilderness, not just text form, but with various photos and videos. Other features include a photo gallery with photos of Conor Nixon showing us some of the most basic skills that we will need to learn in order to survive. The app has essential survival information, including tips on finding a water source, shelter, fire, kit needed, planning ahead, food, medical and tools needed to survive. Another feature contained in the application is the current weather at your location. It also features the Latitude, longitude in degrees, mins and seconds to help you survive while using a map. The application also saves your last known Latitude, longitude in degrees, mins and seconds to your phone.
 
-===============================================================================
+***
 
-Motovation
+## **Motovation**
 
 In Mobile Application Development I must create a mobile application and I must meet the following requirements:
 
