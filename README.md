@@ -27,11 +27,15 @@ In MAD I must create a mobile app and I must meet the following requirements:
 ***
 ## **Features**
 
-*Current weather at there location using GPS coordinates, temperature and weather descritpion
-*Current Latitude in degrees, minutes and seconds
-*Current Longitude in degrees, minutes and seconds
-*Current sunrise and sunset timings
-*The current Latitude and Longitude in degrees, minutes and seconds save to the phones hardware 
+My mobile application allows the user to veiw the:
+
+* Current weather at there location using GPS coordinates
+* Current temperature and weather descritpion
+* Current Latitude in degrees, minutes and seconds
+* Current Longitude in degrees, minutes and seconds
+* Current sunrise and sunset timings
+* Current Latitude and Longitude in degrees, minutes and seconds save to the phones hardware 
+
 ***
 
 ## **Installation**
@@ -53,6 +57,10 @@ If you want to view the application code in Visual Studio then enter the followi
 To view the application in the browser enter the following command:
 
 	ionic serve
+ 
+The below message will appear and you will have to enter Y to proceed:
+  
+  Looks like a fresh checkout! No ./node_modules directory found. Would you like to install project dependencies? (Y/n)
 
 When the command is complete you will recive the following:
 
@@ -62,6 +70,12 @@ Copy and paste it into the browser to view the application.
 
 ***
 
-===============================================================================
+## **API Reference**
+
+The mobile application get the data from the OpenWeatherMap website. Below is a link to the site.
+
+  https://openweathermap.org/
+
+***
 
 Please view Wiki for further details about the mobile application.
