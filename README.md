@@ -24,9 +24,9 @@ In Mobile Application Development I must create a mobile application and I must 
 	9. The project must be created using ionic start G0000001 template, where G0000001 is your Student ID.
 	10. A User Guide should be added to the wiki section of your GitHub repository.
 
-===============================================================================
+***
 
-Installation
+## **Installation**
 
 Copy and paste the below link into the browser.
 
@@ -51,6 +51,8 @@ When the command is complete you will recive the following:
 	http://localhost:8100/
 
 Copy and paste it into the browser to view the application.
+
+***
 
 ===============================================================================
 
