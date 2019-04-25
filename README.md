@@ -60,7 +60,7 @@ To view the application in the browser enter the following command:
  
 The below message will appear and you will have to enter Y to proceed:
   
-  Looks like a fresh checkout! No ./node_modules directory found. Would you like to install project dependencies? (Y/n)
+    Looks like a fresh checkout! No ./node_modules directory found. Would you like to install project dependencies? (Y/n)
 
 When the command is complete you will recive the following:
 
@@ -77,5 +77,7 @@ The mobile application get the data from the OpenWeatherMap website. Below is a 
   https://openweathermap.org/
 
 ***
+
+## **WIKI Pages**
 
 Please view Wiki for further details about the mobile application.
