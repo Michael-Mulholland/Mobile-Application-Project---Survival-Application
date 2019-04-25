@@ -27,8 +27,11 @@ In MAD I must create a mobile app and I must meet the following requirements:
 ***
 ## **Features**
 
-*Current weather at there location using GPS coordinates
-*
+*Current weather at there location using GPS coordinates, temperature and weather descritpion
+*Current Latitude in degrees, minutes and seconds
+*Current Longitude in degrees, minutes and seconds
+*Current sunrise and sunset timings
+*The current Latitude and Longitude in degrees, minutes and seconds save to the phones hardware 
 ***
 
 ## **Installation**
