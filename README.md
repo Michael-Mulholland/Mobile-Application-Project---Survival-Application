@@ -27,7 +27,8 @@ In MAD I must create a mobile app and I must meet the following requirements:
 ***
 ## **Features**
 
-
+*Current weather at there location using GPS coordinates
+*
 ***
 
 ## **Installation**
