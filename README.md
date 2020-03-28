@@ -35,7 +35,7 @@ My mobile application allows the user to veiw the:
 * Current Longitude in degrees, minutes and seconds
 * Current sunrise and sunset timings
 * Current Latitude and Longitude in degrees, minutes and seconds save to the phones hardware 
-
+  * TEST
 ***
 
 ## **Installation**
